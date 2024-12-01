@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://davidh.io/sitemap.xml
+Sitemap: https://dh-davidhuang.github.io/davidh.io/sitemap.xml
