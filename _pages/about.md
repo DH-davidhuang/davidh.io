@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm David Huang, an undergraduate student at UC Berkeley studying Computer Science. I'm applying to PhD programs in the fall of 2025, with a broad interest in advancing research at the intersection of AI security, alignment, and large-scale machine learning systems. Feel free to contact me at huang33176 [at] berkeley [dot] edu if you want to chat about anything!
+Hi, I'm David Huang, an undergraduate student at UC Berkeley majoring in Computer Science. I'm applying to PhD programs in the fall of 2025, driven by a broad interest in advancing the robustness and security of neural language models. My research lies at the intersection of AI security, alignment, and large-scale machine learning systems. If you'd like to connect or discuss related topics, feel free to reach out at huang33176 [at] berkeley [dot] edu.
 
-My research focuses on addressing security vulnerabilities and adversarial robustness challenges in large language models (LLMs). Recently, I have worked on developing universal and transferable jailbreaking attacks to expose model vulnerabilities while simultaneously exploring preference learning techniques to enhance alignment and robustness. My efforts also aim to establish theoretical guarantees for these approaches.
+My previous work has put some focus on tackling security vulnerabilities and improving the adversarial robustness of large language models (LLMs). I have developed universal and transferable jailbreaking techniques to uncover model weaknesses while concurrently exploring preference learning methods to enhance alignment and resilience. My efforts also aim to combine empirical findings with theoretical guarantees to build more secure and reliable AI systems.
 
 In the past, I have contributed to transfer defenses in computer vision models and optimized data management systems to improve transformer training efficiency.
 
