@@ -88,7 +88,7 @@ scripts can be found on website
   abstract    = {Existing training-time safety alignment techniques for large language models (LLMs) remain vulnerable to jailbreak attacks. Direct Preference Optimization (DPO), a widely deployed alignment method, exhibits limitations in both experimental and theoretical contexts as its loss function proves suboptimal for refusal learning. Through gradient-based analysis, we identify these shortcomings and propose an improved safety alignment that disentangles DPO objectives into two components: (1) robust refusal training, which encourages refusal even when partial unsafe generations are produced, and (2) targeted unlearning of harmful knowledge. This approach significantly increases LLM robustness against a wide range of jailbreak attacks, including prefilling, suffix, and multi-turn attacks across both in-distribution and out-of-distribution scenarios. Furthermore, we introduce a method to emphasize critical refusal tokens by incorporating a reward-based token-level weighting mechanism for refusal learning, which further improves the robustness against adversarial exploits. Our research further suggests that robustness to jailbreak attacks is correlated with token distribution shifts in the training process and internal representations of refusal and harmful tokens, offering valuable directions for future research in LLM safety alignment.},
   year        = {2025},
   month       = jan,
-  preview     = {loss_diagram.pdf},
+  preview     = {DOOR_diagram.png},
   bibtex_show = {true},
   selected    = {true},
 }
