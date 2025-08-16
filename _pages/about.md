@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am a 1st year PhD at Princeton. My research lies at the intersection of AI security, safety, and large-scale machine learning systems. If you'd like to connect or discuss related topics, feel free to reach out at huang33176 [at] berkeley [dot] edu.
+Hi, I’m a first-year PhD student at Princeton. My research focuses on the intersection of AI security and safety, with a particular interest in strengthening model robustness and privacy against adversarial threats. If you’d like to connect or discuss related topics, feel free to reach out at huang33176 [at] berkeley [dot] edu.
 
-Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence Lab (BAIR). I have had the great privilege of being advised by [Professor David Wagner](https://people.eecs.berkeley.edu/~daw/) and [Chawin Sitawarin](https://chawins.github.io/) on projects at the intersection of AI security and model robustness! 
+Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Professor David Wagner](https://people.eecs.berkeley.edu/~daw/) and [Chawin Sitawarin](https://chawins.github.io/) on projects at the intersection of AI security and model robustness.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
