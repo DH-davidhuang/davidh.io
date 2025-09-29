@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ICRA 2025 *Best Paper Award Finalist for Robot Learning* — *Robo-DM: Efficient Robot Big Data Management*.
+ICRA 2025 *Best Paper Award Finalist for Robot Learning* — *Robo-DM: Data Management For Large Robot Datasets*.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ICRA 2025 acceptance — *Robo-DM: Efficient Robot Big Data Management*.
+ICRA 2025 acceptance — *Robo-DM: Data Management For Large Robot Datasets*.
