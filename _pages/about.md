@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I’m a first-year PhD student at Princeton. My research focuses on the intersection of AI security and safety, with a particular interest in strengthening model robustness and privacy against adversarial threats. I am very fortunate to be advised by [Professor Prateek Mittal]. Currently, I am also collaborating with Gray Swan AI. 
+Hi, I’m a first-year PhD student at Princeton. My research focuses on the intersection of AI security and safety, with a particular interest in strengthening model robustness and privacy against adversarial threats. I am very fortunate to be advised by [Professor Prateek Mittal](https://www.princeton.edu/~pmittal/). Currently, I am also collaborating with Gray Swan AI. 
 
 Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Professor David Wagner](https://people.eecs.berkeley.edu/~daw/) and [Chawin Sitawarin](https://chawins.github.io/) on projects at the intersection of AI security and model robustness.
 
