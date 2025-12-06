@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as an Anthropic AI Research Fellow (~32 out of 2000+)
+Selected as an Anthropic AI Research Fellow (~32 out of 2000+).
