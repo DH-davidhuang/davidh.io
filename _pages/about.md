@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I’m a PhD student at Princeton. My research focuses on the intersection of AI security and safety, with a particular interest in strengthening model robustness and privacy against adversarial threats. I am very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/). I currently work as a safety and security fellow at Anthropic.
 
-Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/) and [Chawin Sitawarin](https://chawins.github.io/) on projects at the intersection of AI security and model robustness.
+Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
 If you’d like to connect or discuss related topics, feel free to reach out at huang33176 [at] berkeley [dot] edu. 
 
