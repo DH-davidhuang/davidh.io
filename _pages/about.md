@@ -19,7 +19,7 @@ Hi, I’m a PhD student at Princeton in Princeton's Laboratory for Artificial In
 
 Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
-If you’d like to connect or discuss related topics, feel free to reach out at huang33176 [at] berkeley [dot] edu. 
+If you’d like to connect or discuss related topics, feel free to reach out at david.huang [at] princeton [dot] edu. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
