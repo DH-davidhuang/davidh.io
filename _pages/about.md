@@ -15,9 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I’m a PhD student at Princeton in Princeton's Laboratory for Artificial Intelligence (AI Lab). My research focuses on the intersection of AI security and safety, with a particular interest in strengthening model robustness and privacy against adversarial threats. I am very fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/). I currently work as a safety and security fellow at Anthropic.
 
-Previously, I was an CS undergraduate at UC Berkeley, where I worked in Berkeley's Artificial Intelligence (BAIR) Lab. I had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
+Hi, I’m a PhD student at Princeton and a member of Princeton’s Laboratory for Artificial Intelligence (AI Lab). My research focuses on AI security and safety, especially the robustness of language models and AI agents to adversarial attacks. I’m fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/) and currently work as a Safety and Security Fellow at Anthropic.
+
+Before Princeton, I earned my B.A. in Computer Science from UC Berkeley, where I was a member of the Berkeley Artificial Intelligence Research (BAIR) Lab and had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
 If you’d like to connect or discuss related topics, feel free to reach out at david.huang [at] princeton [dot] edu. 
 
