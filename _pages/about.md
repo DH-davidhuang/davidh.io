@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Hi, I’m a PhD student at Princeton and a member of Princeton’s Laboratory for Artificial Intelligence (AI Lab). My research focuses on AI security and safety, especially the robustness of language models and AI agents to adversarial attacks. I’m fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/) and currently work as a Safety and Security Fellow at Anthropic.
+Hi, I’m a PhD student at Princeton in Princeton’s Laboratory for Artificial Intelligence (AI Lab). My research focuses on AI security and safety, especially the robustness of language models and AI agents to adversarial attacks. I’m fortunate to be advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/) and currently work as a Safety and Security Fellow at Anthropic.
 
 Before Princeton, I earned my B.A. in Computer Science from UC Berkeley, where I was a member of the Berkeley Artificial Intelligence Research (BAIR) Lab and had the privilege of being advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
