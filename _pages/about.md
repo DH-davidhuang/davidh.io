@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a researcher at Anthropic. I’m also a PhD student at Princeton (currently on leave), where I’m part of Princeton’s AI Lab and advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/). Before Princeton, I received my B.A. in Computer Science from UC Berkeley, where I was a member of BAIR and advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
+I’m a researcher at Anthropic. I’m also a PhD student at Princeton, where I’m part of Princeton’s AI Lab and advised by [Prof. Prateek Mittal](https://www.princeton.edu/~pmittal/). Before Princeton, I received my B.A. in Computer Science from UC Berkeley, where I was a member of BAIR and advised by [Prof. David Wagner](https://people.eecs.berkeley.edu/~daw/).
 
 If you’d like to connect or discuss related topics, feel free to reach out at david.huang [at] princeton [dot] edu. 
 
