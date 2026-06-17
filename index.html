@@ -4,126 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>David Huang</title>
-<meta name="description" content="David Huang — researcher at Anthropic, PhD student at Princeton.">
-<style>
-  :root {
-    color-scheme: light;
-    --fg: #1a1a1a;
-    --fg-body: #383838;
-    --fg-muted: #767676;
-    --border: #e9e9e9;
-    --bg: #ffffff;
-    --accent: #9a3b2e;        /* muted terracotta */
-    --accent-hover: #6f291f;
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0; background: var(--bg); color: var(--fg-body);
-    font: 16px/1.65 Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
-    padding: 64px 24px 96px;
-  }
-  .wrap { max-width: 640px; margin: 0 auto; }
-  h1 { color: var(--fg); font-size: 30px; line-height: 1.1; margin: 0 0 4px; font-weight: 600; letter-spacing: -0.01em; }
-  h2 {
-    color: var(--fg); font-size: 13px; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.09em; margin: 46px 0 18px; padding-bottom: 7px; border-bottom: 1px solid var(--border);
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { color: var(--accent-hover); text-decoration: underline; }
-  p { margin: 0 0 16px; }
-
-  /* header */
-  .head { display: flex; gap: 26px; align-items: flex-start; justify-content: space-between; }
-  .head .meta { flex: 1; }
-  .sub { color: var(--fg-muted); font-size: 14px; margin: 6px 0 0; }
-  .links { font-family: "Courier New", monospace; font-size: 13.5px; margin-top: 10px; }
-  .links a { white-space: nowrap; }
-  .pfp { width: 104px; height: 104px; border-radius: 8px; object-fit: cover; flex: none;
-         border: 1px solid var(--border); filter: grayscale(0.15); }
-
-  /* publications */
-  ol.pubs { list-style: none; margin: 0; padding: 0; }
-  ol.pubs li { padding: 15px 0; border-top: 1px solid var(--border); }
-  ol.pubs li:first-child { border-top: none; }
-  .pub-title { color: var(--fg); font-weight: 600; }
-  .pub-venue { font-size: 14px; color: var(--fg-muted); margin-top: 2px; }
-  .pub-authors { font-size: 14.5px; color: var(--fg-body); margin-top: 2px; }
-  .pub-links { font-family: "Courier New", monospace; font-size: 12.5px; margin-top: 5px; }
-  .pub-links a { margin-right: 4px; }
-  .award { color: var(--accent); }
-  footer { margin-top: 60px; color: var(--fg-muted); font-size: 12.5px; }
-
-  @media (max-width: 480px) {
-    body { padding: 40px 20px 72px; }
-    .head { flex-direction: column-reverse; gap: 18px; }
-    .pfp { width: 88px; height: 88px; }
-  }
-</style>
+<meta name="description" content="David Huang — researcher at Anthropic, PhD student (on leave) at Princeton.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
 
-  <div class="head">
-    <div class="meta">
-      <h1>David Huang</h1>
-      <p class="links">
-        david.huang [at] princeton [dot] edu<br>
-        <a href="https://scholar.google.com/citations?user=e0IRutEAAAAJ&hl=en">[scholar]</a>
-        <a href="https://github.com/DH-davidhuang">[github]</a>
-        <a href="https://www.linkedin.com/in/huang-david">[linkedin]</a>
-      </p>
-    </div>
-    <img class="pfp" src="prof_pic.jpg" alt="David Huang">
-  </div>
+  <header class="head">
+    <h1>David Huang</h1>
+    <nav class="nav"><a class="active" href="index.html">about</a><a href="research.html">research</a></nav>
+  </header>
 
-  <p style="margin-top:28px">
+  <img class="pfp" src="prof_pic.jpg" alt="David Huang">
+  <p>
     I&rsquo;m a researcher at Anthropic and a PhD student (on leave) at Princeton, advised by
     <a href="https://www.princeton.edu/~pmittal/">Prof. Prateek Mittal</a>. I work on the safety and
     security of large language models.
   </p>
-
-  <h2>Selected Publications</h2>
-  <ol class="pubs">
-    <li>
-      <div class="pub-title">Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework</div>
-      <div class="pub-venue">ICML 2026 <span class="award">(Spotlight, top 2.2%)</span></div>
-      <div class="pub-authors">David Huang*, Jaewon Chang*, Avidan Shah*, Prateek Mittal, Chawin Sitawarin</div>
-      <div class="pub-links"><a href="https://arxiv.org/abs/2606.16242">pdf</a> <a href="https://github.com/DH-davidhuang/rapid-poison">code</a></div>
-    </li>
-    <li>
-      <div class="pub-title">Measuring General Intelligence with Generated Games</div>
-      <div class="pub-venue">Under submission, ICLR 2026</div>
-      <div class="pub-authors">Vivek Verma, David Huang, William Chen, Dan Klein, Nicholas Tomlin</div>
-      <div class="pub-links"><a href="https://arxiv.org/abs/2505.07215">pdf</a> <a href="https://github.com/vivek3141/gg-bench">code</a></div>
-    </li>
-    <li>
-      <div class="pub-title">Improving LLM Safety Alignment with Dual-Objective Optimization</div>
-      <div class="pub-venue">ICML 2025</div>
-      <div class="pub-authors">Xuandong Zhao*, Will Cai*, Tianneng Shi, David Huang, Licong Lin, Song Mei, Dawn Song</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2503.03710">pdf</a> <a href="https://github.com/wicai24/DOOR-Alignment">code</a></div>
-    </li>
-    <li>
-      <div class="pub-title">Stronger Universal and Transfer Attacks by Suppressing Refusals</div>
-      <div class="pub-venue">NAACL 2025</div>
-      <div class="pub-authors">David Huang, Avidan Shah, Alexandre Araujo, David Wagner, Chawin Sitawarin</div>
-      <div class="pub-links"><a href="https://aclanthology.org/2025.naacl-long.302.pdf">pdf</a> <a href="https://underline.io/lecture/116660-stronger-universal-and-transferable-attacks-by-suppressing-refusals">video</a></div>
-    </li>
-    <li>
-      <div class="pub-title">Robo-DM: Data Management for Large Robot Datasets</div>
-      <div class="pub-venue">ICRA 2025 <span class="award">(Best Paper Award, Robot Learning)</span></div>
-      <div class="pub-authors">Kaiyuan Chen, Letian Fu, David Huang*, Yiming Zhang*, et al.</div>
-      <div class="pub-links"><a href="https://arxiv.org/pdf/2505.15558">pdf</a> <a href="https://github.com/BerkeleyAutomation/fog_x">code</a></div>
-    </li>
-    <li>
-      <div class="pub-title">PubDef: Defending against Transfer Attacks from Public Models</div>
-      <div class="pub-venue">ICLR 2024</div>
-      <div class="pub-authors">Chawin Sitawarin, Jaewon Chang*, David Huang*, Wesson Altoyan, David Wagner</div>
-      <div class="pub-links"><a href="https://openreview.net/forum?id=Tvwf4Vsi5F">pdf</a> <a href="https://github.com/wagner-group/pubdef">code</a> <a href="https://wagner-group.github.io/projects/pubdef/index.html">site</a></div>
-    </li>
-  </ol>
-
-  <footer>&copy; 2026 David Huang</footer>
+  <p class="contact">
+    david.huang [at] princeton [dot] edu<br>
+    <a href="https://scholar.google.com/citations?user=e0IRutEAAAAJ&hl=en">scholar</a> &middot;
+    <a href="https://github.com/DH-davidhuang">github</a> &middot;
+    <a href="https://www.linkedin.com/in/huang-david">linkedin</a>
+  </p>
 
 </div>
 </body>

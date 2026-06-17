@@ -1,0 +1,57 @@
+:root {
+  color-scheme: light;
+  --fg: #1a1a1a;
+  --fg-body: #3a3a3a;
+  --fg-muted: #777;
+  --border: #e9e9e9;
+  --bg: #ffffff;
+  --accent: #9a3b2e;
+  --accent-hover: #6f291f;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg-body);
+  font: 15px/1.6 Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  padding: 46px 22px 60px;
+}
+.wrap { max-width: 600px; margin: 0 auto; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+p { margin: 0 0 14px; }
+
+/* header + nav */
+.head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+.head h1 { font-size: 21px; font-weight: 600; margin: 0; letter-spacing: -0.01em; color: var(--fg); }
+.nav { font-size: 14px; white-space: nowrap; }
+.nav a { color: var(--fg-muted); margin-left: 16px; }
+.nav a:first-child { margin-left: 0; }
+.nav a:hover { color: var(--accent); text-decoration: none; }
+.nav a.active { color: var(--fg); }
+
+/* about */
+.pfp { width: 76px; height: 76px; border-radius: 6px; object-fit: cover;
+       border: 1px solid var(--border); float: right; margin: 2px 0 8px 18px; }
+.contact { font-family: "Courier New", monospace; font-size: 13px; color: var(--fg-muted); }
+.contact a { white-space: nowrap; }
+
+/* research */
+.intro { color: var(--fg-muted); font-size: 14px; margin: 0 0 16px; }
+ol.pubs { list-style: none; margin: 0; padding: 0; }
+ol.pubs li { padding: 10px 0; border-top: 1px solid var(--border); }
+ol.pubs li:first-child { border-top: none; padding-top: 0; }
+.pub-title { color: var(--fg); font-weight: 600; }
+.pub-venue { font-size: 13px; color: var(--fg-muted); margin-top: 1px; }
+.pub-authors { font-size: 13.5px; color: var(--fg-body); margin-top: 1px; }
+.pub-links { font-family: "Courier New", monospace; font-size: 12px; margin-top: 3px; }
+.pub-links a { margin-right: 7px; }
+.award { color: var(--accent); }
+
+footer { margin-top: 40px; color: var(--fg-muted); font-size: 12px; }
+
+@media (max-width: 480px) {
+  body { padding: 32px 18px 52px; }
+  .head { flex-direction: column; gap: 6px; }
+  .nav a { margin-left: 0; margin-right: 16px; }
+  .pfp { width: 64px; height: 64px; }
+}
