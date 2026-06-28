@@ -12,7 +12,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--fg-body);
-  font: 15px/1.6 Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font: 15.5px/1.6 "IBM Plex Sans Condensed", "Helvetica Neue", Arial, sans-serif;
   padding: 46px 22px 60px;
 }
 .wrap { max-width: 600px; margin: 0 auto; }
@@ -22,7 +22,7 @@ p { margin: 0 0 14px; }
 
 /* header + nav */
 .head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
-.head h1 { font-size: 21px; font-weight: 600; margin: 0; letter-spacing: -0.01em; color: var(--fg); }
+.head h1 { font-family: "Ubuntu Mono", ui-monospace, "Courier New", monospace; font-size: 20px; font-weight: 700; margin: 0; letter-spacing: -0.01em; color: var(--fg); }
 .nav { font-size: 14px; white-space: nowrap; }
 .nav a { color: var(--fg-muted); margin-left: 16px; }
 .nav a:first-child { margin-left: 0; }
@@ -32,7 +32,7 @@ p { margin: 0 0 14px; }
 /* about */
 .pfp { width: 76px; height: 76px; border-radius: 6px; object-fit: cover;
        border: 1px solid var(--border); float: right; margin: 2px 0 8px 18px; }
-.contact { font-family: "Courier New", monospace; font-size: 13px; color: var(--fg-muted); }
+.contact { font-family: "Ubuntu Mono", ui-monospace, "Courier New", monospace; font-size: 13px; color: var(--fg-muted); }
 .contact a { white-space: nowrap; }
 
 /* research */
@@ -43,7 +43,7 @@ ol.pubs li:first-child { border-top: none; padding-top: 0; }
 .pub-title { color: var(--fg); font-weight: 600; }
 .pub-venue { font-size: 13px; color: var(--fg-muted); margin-top: 1px; }
 .pub-authors { font-size: 13.5px; color: var(--fg-body); margin-top: 1px; }
-.pub-links { font-family: "Courier New", monospace; font-size: 12px; margin-top: 3px; }
+.pub-links { font-family: "Ubuntu Mono", ui-monospace, "Courier New", monospace; font-size: 12px; margin-top: 3px; }
 .pub-links a { margin-right: 7px; }
 .award { color: var(--accent); }
 
